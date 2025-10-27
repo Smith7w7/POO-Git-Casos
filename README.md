@@ -1,8 +1,12 @@
-POO-Git-Casos
-Descripción del Proyecto
+# POO-Git-Casos
+
+## Descripción del Proyecto
+
 Este repositorio contiene casos prácticos de Programación Orientada a Objetos (POO) en Java, desarrollados como parte de un trabajo académico. El proyecto incluye tres casos de estudio que demuestran conceptos fundamentales de POO y el uso de Git para control de versiones.
 
-Estructura del Repositorio
+## Estructura del Repositorio
+
+```
 POO-Git-Casos/
 ├── caso1/
 │   └── UsuarioSimple.java
@@ -13,67 +17,74 @@ POO-Git-Casos/
 ├── guia_git.md
 ├── README.md
 └── informe_final.pdf
-Casos Implementados
-Caso 1: Lectura de Datos Simples con Scanner
-Archivo: caso1/UsuarioSimple.java
+```
 
-Descripción: Programa que demuestra el uso básico de la clase Scanner para solicitar datos por teclado al usuario.
+## Casos Implementados
 
-Características:
+### Caso 1: Lectura de Datos Simples con Scanner
+**Archivo:** `caso1/UsuarioSimple.java`
 
-Lectura de diferentes tipos de datos (String, int, double)
-Manejo del buffer de Scanner
-Interfaz de usuario amigable
-Validación básica de entrada
-Conceptos POO aplicados:
+**Descripción:** Programa que demuestra el uso básico de la clase Scanner para solicitar datos por teclado al usuario.
 
-Uso de clases del API de Java (Scanner)
-Método main como punto de entrada
-Manejo de entrada/salida
-Caso 2: Clase Estudiante con Atributos Privados
-Archivo: caso2/EstudianteInteractivo.java
+**Características:**
+- Lectura de diferentes tipos de datos (String, int, double)
+- Manejo del buffer de Scanner
+- Interfaz de usuario amigable
+- Validación básica de entrada
 
-Descripción: Implementación de una clase Estudiante que demuestra encapsulación mediante atributos privados, constructor y métodos get/set.
+**Conceptos POO aplicados:**
+- Uso de clases del API de Java (Scanner)
+- Método main como punto de entrada
+- Manejo de entrada/salida
 
-Características:
+### Caso 2: Clase Estudiante con Atributos Privados
+**Archivo:** `caso2/EstudianteInteractivo.java`
 
-Clase con atributos privados (encapsulación)
-Constructor parametrizado
-Métodos getter y setter
-Método para mostrar información
-Interfaz interactiva con Scanner
-Conceptos POO aplicados:
+**Descripción:** Implementación de una clase Estudiante que demuestra encapsulación mediante atributos privados, constructor y métodos get/set.
 
-Encapsulación (atributos privados)
-Constructor
-Métodos de acceso (get/set)
-Abstracción de datos
-Interacción entre clases
-Caso 3: Clase CuentaBancaria con Validación
-Archivo: caso3/CuentaBancaria.java
+**Características:**
+- Clase con atributos privados (encapsulación)
+- Constructor parametrizado
+- Métodos getter y setter
+- Método para mostrar información
+- Interfaz interactiva con Scanner
 
-Descripción: Sistema bancario básico que permite operaciones de depósito y retiro con validaciones de saldo.
+**Conceptos POO aplicados:**
+- Encapsulación (atributos privados)
+- Constructor
+- Métodos de acceso (get/set)
+- Abstracción de datos
+- Interacción entre clases
 
-Características:
+### Caso 3: Clase CuentaBancaria con Validación
+**Archivo:** `caso3/CuentaBancaria.java`
 
-Operaciones bancarias básicas (depósito/retiro)
-Validación de saldo suficiente
-Validación de montos positivos
-Menú interactivo
-Manejo de errores
-Conceptos POO aplicados:
+**Descripción:** Sistema bancario básico que permite operaciones de depósito y retiro con validaciones de saldo.
 
-Encapsulación
-Validación de datos
-Métodos con retorno booleano
-Manejo de errores
-Interfaz de usuario completa
-Requisitos del Sistema
-Java: JDK 8 o superior
-Git: Para control de versiones
-Editor de código: Cualquier editor que soporte Java (VS Code, IntelliJ IDEA, Eclipse, etc.)
-Instrucciones de Compilación y Ejecución
-Compilar los programas:
+**Características:**
+- Operaciones bancarias básicas (depósito/retiro)
+- Validación de saldo suficiente
+- Validación de montos positivos
+- Menú interactivo
+- Manejo de errores
+
+**Conceptos POO aplicados:**
+- Encapsulación
+- Validación de datos
+- Métodos con retorno booleano
+- Manejo de errores
+- Interfaz de usuario completa
+
+## Requisitos del Sistema
+
+- **Java:** JDK 8 o superior
+- **Git:** Para control de versiones
+- **Editor de código:** Cualquier editor que soporte Java (VS Code, IntelliJ IDEA, Eclipse, etc.)
+
+## Instrucciones de Compilación y Ejecución
+
+### Compilar los programas:
+```bash
 # Caso 1
 javac caso1/UsuarioSimple.java
 java -cp caso1 UsuarioSimple
@@ -85,7 +96,10 @@ java -cp caso2 EstudianteInteractivo
 # Caso 3
 javac caso3/CuentaBancaria.java
 java -cp caso3 CuentaBancaria
-Ejecutar desde la raíz del proyecto:
+```
+
+### Ejecutar desde la raíz del proyecto:
+```bash
 # Caso 1
 java -cp . caso1.UsuarioSimple
 
@@ -94,37 +108,41 @@ java -cp . caso2.EstudianteInteractivo
 
 # Caso 3
 java -cp . caso3.CuentaBancaria
-Conceptos de POO Demostrados
-Clases y Objetos
+```
 
-Definición de clases
-Creación de objetos
-Instanciación
-Encapsulación
+## Conceptos de POO Demostrados
 
-Atributos privados
-Métodos públicos de acceso
-Ocultación de información
-Constructor
+1. **Clases y Objetos**
+   - Definición de clases
+   - Creación de objetos
+   - Instanciación
 
-Inicialización de objetos
-Parámetros de construcción
-Valores por defecto
-Métodos
+2. **Encapsulación**
+   - Atributos privados
+   - Métodos públicos de acceso
+   - Ocultación de información
 
-Métodos de acceso (get/set)
-Métodos de operación
-Métodos con retorno
-Validación de Datos
+3. **Constructor**
+   - Inicialización de objetos
+   - Parámetros de construcción
+   - Valores por defecto
 
-Verificación de entrada
-Manejo de errores
-Mensajes informativos
-Uso de Git
-Este proyecto incluye una guía completa de Git (guia_git.md) que cubre:
+4. **Métodos**
+   - Métodos de acceso (get/set)
+   - Métodos de operación
+   - Métodos con retorno
 
-Instalación y configuración inicial
-Comandos básicos (init, add, commit, status, log)
-Trabajo con ramas (branch, checkout, merge)
-Repositorios remotos (clone, push, pull)
-Mejores prácticas y flujo de trabajo
+5. **Validación de Datos**
+   - Verificación de entrada
+   - Manejo de errores
+   - Mensajes informativos
+
+## Uso de Git
+
+Este proyecto incluye una guía completa de Git (`guia_git.md`) que cubre:
+
+- Instalación y configuración inicial
+- Comandos básicos (init, add, commit, status, log)
+- Trabajo con ramas (branch, checkout, merge)
+- Repositorios remotos (clone, push, pull)
+- Mejores prácticas y flujo de trabajo
